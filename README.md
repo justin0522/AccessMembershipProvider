@@ -1,0 +1,6 @@
+# MembershipProvider
+AccessMembershipProvider
+
+LdapMembershipProvider
+
+SqlMembershipProvider
