@@ -4,3 +4,5 @@ AccessMembershipProvider
 LdapMembershipProvider
 
 SqlMembershipProvider
+
+SPClaimAuthMembershipProvider
