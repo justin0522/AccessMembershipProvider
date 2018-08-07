@@ -1,0 +1,5 @@
+language: csharp
+solution: AccessMembershipProvider.sln
+script:
+  - xbuild /p:Configuration=Release AccessMembershipProvider.sln
+  - mono ./packages/xunit.runners.*/tools/xunit.console.clr4.exe ./MyProject.Tests/bin/Release/MyProject.Tests.dll
