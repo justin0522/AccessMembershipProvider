@@ -5,7 +5,7 @@ using System.Web;
 using System.Data;
 using System.Reflection;
 
-namespace Justin.MembershipProvider
+namespace HF.MembershipProvider
 {
     public static class ListGenerater
     {

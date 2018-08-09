@@ -6,7 +6,7 @@ using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace WebApplication1
+namespace HF.MembershipProvider.Test
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
@@ -17,7 +17,7 @@ namespace WebApplication1
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            if( Membership.ValidateUser(this.TextBox1.Text.Trim(),this.TextBox2.Text.Trim()))
+            if (Membership.ValidateUser(this.TextBox1.Text.Trim(), this.TextBox2.Text.Trim()))
             {
                 string str = "登陆成功";
             }

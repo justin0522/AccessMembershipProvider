@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Security;
 
-namespace Justin.MembershipProvider
+namespace HF.MembershipProvider
 {
     public class AccessMembershipProvider : System.Web.Security.MembershipProvider
     {

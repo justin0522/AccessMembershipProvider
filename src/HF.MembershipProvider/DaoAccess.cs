@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Justin.MembershipProvider
+namespace HF.MembershipProvider
 {
     public class DaoAccess
     {
